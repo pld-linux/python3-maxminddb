@@ -17,7 +17,7 @@ Source0:	https://pypi.python.org/packages/source/m/maxminddb/maxminddb-%{version
 URL:		https://pypi.python.org/pypi/maxminddb
 BuildRequires:	libmaxminddb-devel
 BuildRequires:	rpm-pythonprov
-BuildRequires:	rpmbuild(macros) >= 1.219
+BuildRequires:	rpmbuild(macros) >= 1.710
 %if %{with python2}
 BuildRequires:	python-devel
 BuildRequires:	python-distribute
