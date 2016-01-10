@@ -9,7 +9,7 @@
 Summary:	Python extension for reading the MaxMind DB format
 Name:		python-%{module}
 Version:	1.1.1
-Release:	4
+Release:	5
 License:	APL
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/m/maxminddb/maxminddb-%{version}.tar.gz
@@ -52,6 +52,9 @@ address subnets (IPv4 or IPv6).
 Summary:	%{module} API documentation
 Summary(pl.UTF-8):	Dokumentacja API %{module}
 Group:		Documentation
+%if "%{_rpmversion}" >= "5"
+BuildArch:	noarch
+%endif
 
 %description apidocs
 API documentation for %{module}.
