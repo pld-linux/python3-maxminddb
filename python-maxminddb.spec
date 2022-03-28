@@ -9,7 +9,7 @@
 Summary:	Python extension for reading the MaxMind DB format
 Name:		python-%{module}
 Version:	1.1.1
-Release:	13
+Release:	14
 License:	APL
 Group:		Libraries/Python
 Source0:	https://pypi.python.org/packages/source/m/maxminddb/maxminddb-%{version}.tar.gz
